@@ -1,5 +1,3 @@
-// import logo from './logo.svg';
-// import "./App.css";
 import CustomButton from "./components/CustomButton";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -7,7 +5,6 @@ import bgImg from "./assets/images/bg.png";
 import sectionImgOne from "./assets/images/section-img-1.png";
 import sectionImgTwo from "./assets/images/section-img-2.png";
 
-// import "./custom.scss";
 
 function App() {
   return (
@@ -89,17 +86,3 @@ function App() {
 }
 
 export default App;
-//  <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
