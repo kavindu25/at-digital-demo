@@ -56,14 +56,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-// <nav classNameName="navbar px-5 pt-2 bg-primary row justify-content-between text-white">
-//   <div className="col-8 p-3 ">
-//     <img src={logo} alt="logo" className=""/>
-//   </div>
-//   <ul className="col-4 py-3 d-flex align-items-start list-unstyled">
-//     <li className="p-3">SERVICES</li>
-//     <li className="p-3">ABOUT US</li>
-//     <li className="p-3">CONTACT US</li>
-//     <li className="p-3">CAREERS</li>
-//   </ul>
-// </nav>
