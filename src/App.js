@@ -1,13 +1,9 @@
-// import logo from './logo.svg';
-// import "./App.css";
 import CustomButton from "./components/CustomButton";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import bgImg from "./assets/images/bg.png";
 import sectionImgOne from "./assets/images/section-img-1.png";
 import sectionImgTwo from "./assets/images/section-img-2.png";
-
-// import "./custom.scss";
 
 function App() {
   return (
@@ -20,17 +16,36 @@ function App() {
           width={1920}
           className="img-fluid "
         />
-        <div className="row">
+        <div className="row d-none d-lg-block position-absolute z-20 end-0 bottom-0 mx-5">
           <div
-            className="position-absolute z-10 start-0 top-50  px-4 py-4  mb-5 col-md-6 text-white"
+            className=" px-4 py-4 ml-1 mb-5 col-md-6 text-white"
             style={{
               background:
                 "linear-gradient(257deg, #1CBDDD 27.86%, #4DCA79 100%)",
             }}
           >
             <h4 className="display-4 pb-3">
-              We crush your competitors, goals, and sales records - without the
-              B.S.
+              <b>
+                We crush your competitors, goals, and sales records - without
+                the B.S.
+              </b>
+            </h4>
+            <CustomButton title="Get free consultation" />
+          </div>
+        </div>
+        <div className="row d-xs-block d-sm-block d-md-block d-lg-none">
+          <div
+            className=" start-0 bottom-50  px-4 py-4  mb-5 col-md text-white"
+            style={{
+              background:
+                "linear-gradient(257deg, #1CBDDD 27.86%, #4DCA79 100%)",
+            }}
+          >
+            <h4 className="display-4 pb-3 px-2">
+              <b>
+                We crush your competitors, goals, and sales records - without
+                the B.S.
+              </b>
             </h4>
             <CustomButton title="Get free consultation" />
           </div>
@@ -89,17 +104,3 @@ function App() {
 }
 
 export default App;
-//  <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
